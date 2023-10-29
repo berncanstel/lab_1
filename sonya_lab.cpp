@@ -83,8 +83,8 @@ int main( void ){
         return EXIT_FAILURE;
     }
 
-    encrypt("/home/sonya/Documents/lab_1/text1.txt", "/home/sonya/Documents/lab_1/text2.txt");
-    decrypt("/home/sonya/Documents/lab_1/text2.txt", "/home/sonya/Documents/lab_1/text3.txt");
+    encrypt("./text1.txt", "./text2.txt");
+    decrypt("./text2.txt", "./text3.txt");
 
     /* код ошибки, возвращаемый функциями библиотеки */
     int error = ak_error_ok;
